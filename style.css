@@ -35,10 +35,35 @@
     width: 128px;
 }
 
+.hero-2 {
+    font-family: 'Roboto', sans-serif;
+    padding: 32px;
+    margin: 0px;
+    border: 0px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.info img {
+    width: 64px;
+    height: 48px;
+}
+
 h1 {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
+}
+
+h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
 }
 
 a {
