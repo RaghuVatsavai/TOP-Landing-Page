@@ -1,6 +1,6 @@
 .hero-1 {
-    background: #1F2837;
     font-family: 'Roboto', sans-serif;
+    background: #1F2837;
     padding: 32px;
     margin: 0px;
     border: 0px;
@@ -48,9 +48,86 @@
     justify-content: space-around;
 }
 
+.info {
+    text-align: center;
+}
+
 .info img {
-    width: 64px;
-    height: 48px;
+    width: 128px;
+    height: 128px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.subtext {
+    color: #5a6067;
+    font-size: 18px;
+}
+
+.hero-3 {
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    padding: 64px;
+    margin: 64px;
+    border: 0px;
+    text-align: left;
+}
+
+.italic-text {
+    padding: 16px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+}
+
+.name-text {
+    text-align: right;
+    font-weight: bold;
+}
+
+.hero-4 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 48px;
+    margin: 64px;
+    border-radius: 5px;
+    font-size: small;
+}
+
+.modal button {
+    background: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border-color: #F9FAF8;
+    padding: 8px;
+    width: 128px;
+}
+
+.hero-5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    background: #1F2837;
+    padding: 32px;
+    margin: 0px;
+    border: 0px;
+}
+
+.footer {
+    color: #E5E7EB;
+    font-size: 12px;
 }
 
 h1 {
@@ -78,6 +155,11 @@ ul {
     margin: 0px;
     padding: 0px;
     gap: 16px;
+}
+
+h5 {
+    font-size: large;
+    margin: 3px;
 }
 
 /*
